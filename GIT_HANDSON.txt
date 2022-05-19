@@ -1,0 +1,99 @@
+git init
+Initialize the git repository
+
+git clone
+For cloning repository from Github
+
+git status
+
+git add   (if you want to add file to staging area)
+
+git add -A (capital A)
+to add multiple files together
+
+
+
+git reset (if you want to remove from staging area)
+
+git commit -a (small a)
+to commit all the files
+
+
+git commit -m "MEssage to display"
+
+(if any file is modified it will show in git status)
+git status
+
+git log (it will show you the complete log for the git)
+
+
+
+git branch branch_name (branch created)
+
+git checkout branch_name (Switched to the created branch)
+
+create a file and it will be in the sub branch. .!
+
+ls command to show all the files
+
+
+
+Merging of branches
+
+git merge branch_name (It will be merged where you are currently working)
+
+Until you don't merge. .(subbranch data will not be shown in master)
+
+
+
+
+
+////////////////////////////
+Rebasing -> similar to merge (at different level)
+
+for better history of the project
+git rebase master(branchname)
+
+//////////////////////////////
+
+
+
+Generating SSH Keygen
+--------------------
+ssh-keygen
+/.ssh/id_rsa.pub
+
+
+Settings 
+SSH & GPG keys
+New SSH KEY
+
+Provide name (Title)
+
+
+
+To test the SSH Connection
+
+ssh -T sshconnnectionURL
+
+git push branch_name
+
+git pull branch_name
+
+
+
+-------------------
+Revert
+
+see the git log
+
+git log
+
+
+git checkout 8_digits_of_the_hash file_name_which_you_want_to_revert
+
+
+
+
+
+
