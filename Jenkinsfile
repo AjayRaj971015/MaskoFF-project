@@ -4,8 +4,13 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello World'
+                echo 'checking'
+                fileExists 'p1.sh'
+                echo 'output'
+                sh '.p1.sh'   
+            
             }
+            
         }
     }
 }
